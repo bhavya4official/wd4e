@@ -5,4 +5,4 @@ Course link:- https://www.coursera.org/learn/html/home/welcome/
 
 Cool webtech demo site:- http://intro-webdesign.com/
 
-(Note: This code is validated on https://validator.w3.org/)
+(Note: This code markup is validated on https://validator.w3.org/ and It's web accessability is evaluated on https://wave.webaim.org/ )
