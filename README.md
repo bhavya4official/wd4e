@@ -1,5 +1,5 @@
 # wd4e
-Final assignment of "Introduction to HTML5" course from "Web Development for everybody" specilization on Coursera.
+Final assignment of "Introduction to HTML5" course from coursera specilization "Web Development for everybody".
 
 Course URL:- https://www.coursera.org/learn/html/home/welcome/
 
