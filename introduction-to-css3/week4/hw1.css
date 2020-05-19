@@ -1,4 +1,76 @@
-/* For responsiveness I'm using % for setting sizes, Try resizing your browser */
+/* For responsiveness I'm using % for setting most sizes, Try resizing your browser */
+/* Styling the table of teams page*/
+table{
+    width: 60%;
+    height: 20px;
+    margin-left: 33%;
+    margin-top: 4%;
+    vertical-align: middle;
+}
+
+th{
+    border-bottom: 4px solid #004400;
+    border-radius: 8px 8px 0 0;
+    background-image: linear-gradient(#ffff00, #208a20);    /* According to "Can I use", most browssesr (95.39%) support unprefixed linear-gradient of Jun */
+    color: #ffffff;
+    padding: 2% 0 2% 0;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transition: all;
+}
+
+/* Aligning text of table heading */
+th:first-child{
+    text-align: left;
+}
+
+th:not(:first-child){
+    text-align: center;
+}
+
+/* Aligning text of table data */
+td:first-child{
+    text-align: left;
+}
+
+tr:not(:first-child){
+    text-align: center;
+}
+
+/* setting opacity and bg color for all rows except 1st row (to make heading transition beautiful) */
+tr:not(:first-child){
+    opacity: 0.7;
+    background-color: #79d62c;
+}
+
+/* tr:hover{                    /* Simple table row hover */ /*
+    opacity: 1;
+    background-color: #52a85c;
+} */
+
+tr:not(:first-child):hover{
+    opacity: 1;                 /* changing opacity on hover */
+    background-color: #52a85c;
+}
+td{
+    padding: 1.2% 0 1.2% 0;
+}
+
+td:hover{
+    text-shadow: 0 0 4px #dd0000;   /* Text-shadow with blur effect of red neon glow */
+    background-image: radial-gradient(#dddd00, #52a85c);
+}
+
+th:hover{
+    text-shadow: 2px 2px 5px #dd0000;
+    transform: scale(1,1.2);            /* According to "Can I  Use" 98.17% Global devices support 2D transforms */
+    transform: translateY(-10px)
+}
+
+
+/* Styling Web page */
 body{
     padding: 0.5%;
     margin: 0.5%;
@@ -49,6 +121,7 @@ nav a:focus{        /* Highlight by tab button */
     height: 100vh;
     background-color: #770;
     text-align: center;
+    margin-right: 15px;
 }
 
 .left img{        /* Left sided images */
@@ -59,8 +132,7 @@ nav a:focus{        /* Highlight by tab button */
 
 .right{
     background-color: #fff4;
-    margin-left: 22%;
-    padding: 2.5%;
+    padding-left: 2.5%;
     font-size: 1.4vw;
 }
 
@@ -70,4 +142,4 @@ h2{
     text-transform: uppercase;
 }
 
-/* Thank you for reviewing, I hope color different choices should not be the problem */
+/* Thank you for reviewing, I hope different color choices would not be the problem */
