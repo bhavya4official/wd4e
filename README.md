@@ -1,5 +1,6 @@
 # wd4e
 Final assignment of "Introduction to HTML5" course from coursera specilization "Web Design for Everybody".
+
 Course offered by: University of Michigan
 
 Course URL:- https://www.coursera.org/learn/html/ (recommended for beginners)
